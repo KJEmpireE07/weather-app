@@ -1,7 +1,6 @@
 const weatherForm = document.querySelector(".header")
 const inputVal = document.querySelector(".inputVal")
 const card = document.querySelector(".card")
-// const API_KEY = "ef74324973281c41d14eba8938ed01a8"
 
 
 
