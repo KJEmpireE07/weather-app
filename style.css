@@ -1,0 +1,109 @@
+*{
+    font-family: sans-serif, arial;
+    /* background-color:hsl(0, 0%, 95%) */
+}
+
+body{
+    margin: 0;
+    background-color:hsl(0, 0%, 95%)
+}
+
+.container{
+    margin: 20px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    gap: 20px;
+
+}
+
+.inputVal{
+    padding: 10px;
+    border: 2px solid green;
+    border-radius: 5px;
+    background-color: white;
+    font-size: 16px;
+    font-weight: bold;
+    color: black;
+    width: 500px;
+    /* box-shadow: 2px 2px 5px hsla(0, 0%, 0%, 0.9); */
+}
+
+button[type="submit"]{
+    padding: 10px;
+    border: 2px solid hsla(0, 0%, 0%, 1);
+    border-radius: 5px;
+    background-color: hsl(113, 84%, 57%);
+    font-size: 16px;
+    font-weight: bold;
+    color: white;
+    box-shadow: 2px 2px 5px hsla(0, 0%, 0%, 0.9);
+}
+
+button[type="submit"]:hover{
+    cursor: pointer;
+    
+}
+
+.header{
+    display: flex;
+    gap: 8px;
+}
+
+.card{
+    /* background: linear-gradient(180deg, hsl(120, 65%, 66%), white); */
+    /* width: 700px; */
+    display: flex;
+    /* color: black; */
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    background: linear-gradient(180deg, hsl(210, 100%, 75%), hsl(40, 100%, 75%));
+    border-radius: 5px;
+    padding: 50px;
+    /* border: 1px solid red; */
+    min-width: 300px;
+
+    box-shadow: 2px 2px 5px hsla(0, 0%, 0%, 0.9);
+}
+
+h1{
+    /* font-size: 3rem; */
+    margin-top: 0;
+    margin-bottom: 0px;
+}
+
+p{
+    font-size: 1.2rem;
+    margin: 5px 0px;
+}
+
+.cityDisplay, .tempDisplay{
+    font-size: 3rem;
+    font-weight: bold;
+    margin-bottom: 25px;
+}
+
+.humidityDsiplay, .windspeed{
+    font-weight: bold;
+    margin-bottom: 7px;
+}
+
+.description{
+    font-style: italic;
+    font-weight: bold;
+    margin-top: 25px;
+    font-size: 1.9rem;
+}
+
+.emojidisplay{
+    font-size: 7rem;
+    font-weight: bold;
+}
+
+.displayError{
+    font-size: 1.5rem;
+    font-weight: bold;
+}
+
